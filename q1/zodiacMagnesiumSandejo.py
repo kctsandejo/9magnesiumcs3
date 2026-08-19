@@ -7,3 +7,5 @@ else:
     index = (birth_year - 1900) % 12
     print("Your Chinese Zodiac Sign is:", zodiac_signs[index])
 
+![zodiac screenshot output](q1/Screenshot 2026-08-19 175427.png)
+
