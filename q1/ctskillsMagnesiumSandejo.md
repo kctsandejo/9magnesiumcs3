@@ -53,7 +53,7 @@ START
         INPUT price
             INPUT qty
                 SET total = price * qty
-                    DISPLAY "Total Amount Due: $" + total
+                    DISPLAY "Total Amount Due: ₱" + total
 
                         // Step 2: Get customer payment
                             INPUT payment
@@ -61,7 +61,7 @@ START
                                 // Step 3: Check if payment is sufficient
                                     IF payment >= total THEN
                                             SET change = payment - total    // Automatically calculate change
-                                                    DISPLAY "Payment Successful! Your change is: $" + change
+                                                    DISPLAY "Payment Successful! Your change is: ₱" + change
                                                         ELSE
                                                                 SET lacking = total - payment   // Automatically calculate remaining balance
                                                                         DISPLAY "Payment Failed! Additional amount needed: $" + lacking
