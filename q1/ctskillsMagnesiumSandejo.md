@@ -66,4 +66,5 @@ START
                                                                 SET lacking = total - payment   // Automatically calculate remaining balance
                                                                         DISPLAY "Payment Failed! Additional amount needed: $" + lacking
                                                                             ENDIF
-                                                                            END                                                                                                                                                                                                                                                                                                                                                            END
+                                                                            END   
+                                                                                                                                                                                                                                                                                                                                                         END
