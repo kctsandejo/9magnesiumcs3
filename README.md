@@ -18,3 +18,5 @@ Magnesium
 [View my Computational Thinking Exercise](q1/ctskillsMagnesiumSandejo.md)
 
 [View my Chinese Zodiac Exercise](q1/zodiacMagnesiumSandejo.py)
+
+[View my ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
