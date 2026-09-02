@@ -21,4 +21,4 @@ Magnesium
 
 [View my ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
 
-[View my ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
+[View my OOP Seed System](q1/classObjectUML.md)
