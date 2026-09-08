@@ -42,15 +42,4 @@ if __name__ == "__main__":
     print("Object 1:", music1.pin_interests())
     print("Object 2:", music2.pin_interests())
 
-## Short Analysi
-# 1. Why did you make your chosen attribute private?
-I made __songs and __listeners private to protect the data from being changed incorrectly from outside the class. If they were public, any part of the program could accidentally set negative numbers or negative listeners. Making them private forces all updates to go through safety checks in our methods first.
-
-# 2. Which method changes the state of your object?
-​The update_listeners(count) method changes the state of the object by modifying the private __listeners attribute. Passing a new number into this method checks if the value is zero or higher. If it is valid, it writes the old listener count with the new value.
-
-# 3. How did your two objects demonstrate that instances are independent?
-The test run proved independence because updating music1 did not affect music2 at all. When update_listeners(100000) was called on music1, its listeners increased. Meanwhile, music2 kept its original listeners, showing that each object holds its own separate memory space.
-
-# 4. What is the difference between your class diagram and your object diagram?
-​The class diagram is just the general blueprint showing attribute names, data types, and methods. Meanwhile, the object diagram shows the actual state of instances during runtime. Instead of listing data types, the object diagram shows the exact values stored inside music1 and music2 at that moment.
+ just the general blueprint showing attribute names, data types, and methods. Meanwhile, the object diagram shows the actual state of instances during runtime. Instead of listing data types, the object diagram shows the exact values stored inside music1 and music2 at that moment.
