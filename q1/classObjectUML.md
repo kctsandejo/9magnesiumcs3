@@ -22,6 +22,7 @@ The “MusicTaste” class encapsulates an individual's musical interests, track
 | listeners| int | Private | To enforce encapsulation, preventing unauthorized actions and forces changes to go through methods.|
 
 #Updated UML Class
+
 +--------------------------------------------+
 | MusicTaste                                 |
 +--------------------------------------------+
