@@ -5,7 +5,7 @@ class MusicTaste:
         self.artist = artist
         
         # Private attributes: Prefixed with two underscores (__) to prevent 
-        # direct external modification and protect data integrity
+        # direct modification and protect data integrity
         self.__songs = max(0, songs)
         self.__listeners = max(0, listeners)
 
@@ -15,7 +15,7 @@ class MusicTaste:
 
     def update_listeners(self, count: int) -> None:
         """
-        Receives a parameter and safely modifies a private state-changing attribute.
+        Receives a parameter and safely modifies a private changing attribute.
         Includes a safety check to ensure listener values cannot be negative.
         """
         if count >= 0:
@@ -33,7 +33,7 @@ class MusicTaste:
 if __name__ == "__main__":
     # Step 6: Instantiate two independent objects from the same class blueprint
     music1 = MusicTaste("Bohemian Rhapsody", "Queen", 45, 50000)
-    music2 = MusicTaste("Blinding Lights", "The Weeknd", 120, 85000000)
+    music2 = MusicTaste("Piledriver Waltz", "Arctic Monkeys", 120, 85000000)
 
     # Step 8: Display the initial state of both objects before making any changes
     print("--- BEFORE ---")
