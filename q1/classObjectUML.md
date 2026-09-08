@@ -9,10 +9,33 @@ The “MusicTaste” class encapsulates an individual's musical interests, track
 ## Properties
 | Property | Data Type | Description |
 |---|---|---|
-| title | string | Title of favorite song. |
-| artist | string | Name of the artist. |
-| songs | int | Number of saved songs in the user's library. |
-| listeners | int | Monthly listeners count of the selected artist. |
+| + title | string | Title of favorite song. |
+| + artist | string | Name of the artist. |
+| - songs | int | Number of saved songs in the user's library. |
+| - listeners | int | Monthly listeners count of the selected artist. |
+
+| Attribute | Data Type | Visibility | Why Public/Private? |
+|---|---|---|---|
+| title | string | Public | reading or changing a song title does not break any internal safety rules in the program. |
+| artist| string | Public | It is basic display information that external scripts need to read freely.|
+| songs | int | Private | To protect internal data, if it is made public, negative values could corrupt the library through external codes |
+| listeners| int | Private | To enforce encapsulation, preventing unauthorized actions and forces changes to go through methods.|
+
+#Updated UML Class
++--------------------------------------------+
+| MusicTaste                                 |
++--------------------------------------------+
+| + title : string                           |
+| + artist : string                          |
+| - songs : int                              |
+| - listeners : int                          |
++--------------------------------------------+
+| + play_songs() : string                    |
+| + update_listeners(count : int) : int      |
+| + pin_interests() : string                 |
++--------------------------------------------+
+
+
 
 ## Methods
 | Method | Description |
