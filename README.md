@@ -23,8 +23,8 @@ Magnesium
 
 [View my OOP Seed System](q1/classObjectUML.md)
 
-[View my OOP Seed System-Part II](q1/classImplementation.py)
+[View my OOP Seed System- Class Implementation Part II](q1/classImplementation.py)
 
-[View my OOP Seed System-Part II](q1/classAttributesMethods.md)
+[View my OOP Seed System- Class AttributesPart II](q1/classAttributesMethods.md)
 
 [View my OOP Seed System-Part III](q1/clasRelationships.md)
