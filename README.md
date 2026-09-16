@@ -26,3 +26,5 @@ Magnesium
 [View my OOP Seed System-Part II](q1/classImplementation.py)
 
 [View my OOP Seed System-Part II](q1/classAttributesMethods.md)
+
+[View my OOP Seed System-Part III](q1/clasRelationships.md)
