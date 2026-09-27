@@ -17,7 +17,7 @@ Explanation: It provides a strong ownership bond where the PlaylistInfo cannot e
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
-![Test](images/advancedTestRun.png)
+![Test](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/advancedTestRun.jpg?raw=true)
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png)
 ## Reflection
