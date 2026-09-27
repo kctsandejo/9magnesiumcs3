@@ -75,11 +75,11 @@ if __name__ == "__main__":
     my_party_playlist.display_playlist()
 
     print("\n=== Step 3: Demonstrating Object Reference Value ===")
-    print("Modifying Alice's artist popularity score directly via her original object...")
+    print("Modifying Alice's artist popularity score directly via her original object")
     # Updating the original object reference proves data integrity across associations
     user1_taste.update_popularity(99) 
     
-    # Notice that the playlist reflects this change seamlessly because it points to the object reference
+    # Notice that the playlist reflects this change seamlessly because it points to the object reference :))
     print("Displaying playlist again to verify changes:")
     my_party_playlist.display_playlist()
 
