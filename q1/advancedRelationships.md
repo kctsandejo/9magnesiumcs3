@@ -22,8 +22,7 @@ Explanation: It provides a strong ownership bond where the PlaylistInfo cannot e
 ![Objects](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/advancedObjectDiagram.jpg?raw=true)
 ## Reflection
 
-### 1. Why did you choose your inheritance relationship? Explain why your child class is a type of your
-parent class.
+### 1. Why did you choose your inheritance relationship? Explain why your child class is a type of your parent class.
 I chose PremiumMusicTaste as a child class of MusicTaste because a premium profile is a specific type of music taste profile (IS-A relationship). It shares all basic features like favorite songs and artists. It simply extends the parent class with a listening_mode attribute.
 
 ### 2. How did inheritance reduce duplicate code? Identify attributes or methods that were reused.
