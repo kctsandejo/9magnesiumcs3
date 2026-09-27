@@ -7,10 +7,10 @@ class MusicTaste:
         self.listener_name = listener_name
         self.favorite_song = favorite_song
         self.favorite_artist = favorite_artist
-        self.artist_popularity = artist_popularity  # Scale out of 100
+        self.artist_popularity = artist_popularity  # out of 100
 
     def update_popularity(self, new_popularity: int):
-        """Updates the popularity score of the favorite artist."""
+        #popularity score
         self.artist_popularity = new_popularity
 
     def __str__(self):
@@ -19,8 +19,7 @@ class MusicTaste:
 
 class PlayList:
     """
-    Organizes lists of audio, songs, or digital media files
-    that play back in a specific order or on a loop.
+    organizes lists of audio, songs, or digital media files
     """
     def __init__(self, name: str):
         self.name = name
@@ -48,41 +47,37 @@ class PlayList:
         for index, track in enumerate(self._tracks, start=1):
             print(f"  {index}. {track}")
         print("-" * (14 + len(self.name)))
-
-
-# ==========================================
-# TEST RUN DEMONSTRATION
-# ==========================================
+#Test run     
 if __name__ == "__main__":
-    print("=== Step 1: Creating MusicTaste Objects ===")
+    print("Step 1: Creating MusicTaste Objects")
     user1_taste = MusicTaste("Alice", "Circles", "Post Malone", 95)
     user2_taste = MusicTaste("Bob", "Bohemian Rhapsody", "Queen", 88)
     user3_taste = MusicTaste("Guo", "Shape of You", "Ed Sheeran", 91)
-    
+
     print(user1_taste)
     print(user2_taste)
     print(user3_taste)
 
-    print("\n=== Step 2: Creating PlayList & Establishing Association (A-PlayList) ===")
+    print(" Step 2: Creating PlayList & Establishing Association (A-PlayList)")
     my_party_playlist = PlayList("Weekendz")
-    
-    # Associating multiple (*) MusicTaste items into one PlayList
+
+    # multiple MusicTaste into 1 playlist
     my_party_playlist.add_music_taste(user1_taste)
     my_party_playlist.add_music_taste(user2_taste)
     my_party_playlist.add_music_taste(user3_taste)
 
-    # Show initial list configuration
+    # initial config
     my_party_playlist.display_playlist()
 
     print("\n=== Step 3: Demonstrating Object Reference Value ===")
     print("Modifying Alice's artist popularity score directly via her original object")
-    # Updating the original object reference proves data integrity across associations
+    # proves data integrity and consistency across associations
     user1_taste.update_popularity(99) 
-    
-    # Notice that the playlist reflects this change seamlessly because it points to the object reference :))
+  
+    #  playlist reflects change from object reference 
     print("Displaying playlist again to verify changes:")
     my_party_playlist.display_playlist()
 
-    print("\n=== Step 4: Removing an Element ===")
+    print(" Step 4: Removing an Element")
     my_party_playlist.remove_music_taste("Bob")
     my_party_playlist.display_playlist()
