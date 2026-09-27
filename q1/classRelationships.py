@@ -19,16 +19,14 @@ class MusicTaste:
 
 class PlayList:
     """
-    Organizes lists of audio, songs, or digital media files (MusicTaste profiles)
+    Organizes lists of audio, songs, or digital media files
     that play back in a specific order or on a loop.
     """
     def __init__(self, name: str):
         self.name = name
-        # Implements Multiplicity (*) by using an ordered Python list to hold object references
         self._tracks = []
 
     def add_music_taste(self, music_taste: MusicTaste):
-        """Adds a MusicTaste object reference to the playlist."""
         if isinstance(music_taste, MusicTaste):
             self._tracks.append(music_taste)
             print(f"Added {music_taste.listener_name}'s preferences to playlist '{self.name}'.")
@@ -36,8 +34,7 @@ class PlayList:
             raise TypeError("Only MusicTaste object instances can be added.")
 
     def remove_music_taste(self, listener_name: str):
-        """Removes a MusicTaste profile from the playlist by listener name."""
-        for track in self._tracks:
+      for track in self._tracks:
             if track.listener_name == listener_name:
                 self._tracks.remove(track)
                 print(f"Removed {listener_name}'s preferences from playlist '{self.name}'.")
@@ -45,7 +42,6 @@ class PlayList:
         print(f"Listener '{listener_name}' not found in playlist.")
 
     def display_playlist(self):
-        """Prints the ordered tracking items within the playlist."""
         print(f"\n--- PlayList: {self.name} ---")
         if not self._tracks:
             print("  (Playlist is empty)")
@@ -59,16 +55,16 @@ class PlayList:
 # ==========================================
 if __name__ == "__main__":
     print("=== Step 1: Creating MusicTaste Objects ===")
-    user1_taste = MusicTaste("Alice", "Blinding Lights", "The Weeknd", 95)
+    user1_taste = MusicTaste("Alice", "Circles", "Post Malone", 95)
     user2_taste = MusicTaste("Bob", "Bohemian Rhapsody", "Queen", 88)
-    user3_taste = MusicTaste("Charlie", "Shape of You", "Ed Sheeran", 91)
+    user3_taste = MusicTaste("Guo", "Shape of You", "Ed Sheeran", 91)
     
     print(user1_taste)
     print(user2_taste)
     print(user3_taste)
 
     print("\n=== Step 2: Creating PlayList & Establishing Association (A-PlayList) ===")
-    my_party_playlist = PlayList("Weekend Vibe Share")
+    my_party_playlist = PlayList("Weekendz")
     
     # Associating multiple (*) MusicTaste items into one PlayList
     my_party_playlist.add_music_taste(user1_taste)
