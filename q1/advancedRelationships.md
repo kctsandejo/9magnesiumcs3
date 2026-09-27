@@ -8,7 +8,7 @@ Parent: MusicTaste
 Child: PremiumMusicTaste
 Explanation: PremiumMusicTaste is simply an exclusive version of a standard MusicTaste profile and explicitly points out the use of super().__init__().
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+![Inheritance](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/advancedClassDiagram.jpg?raw=true)
 ## Composition/Aggregation
 Relationship: Composition (Strong HAS-A)
 Explanation: It provides a strong ownership bond where the PlaylistInfo cannot exist without the PlayList, which follows the composition relationship.
