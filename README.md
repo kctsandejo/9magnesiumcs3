@@ -27,4 +27,4 @@ Magnesium
 
 [View my OOP Seed System- Class AttributesPart II](q1/classAttributesMethods.md)
 
-[View my OOP Seed System-Part III](q1/clasRelationships.md)
+[View my OOP Seed System-Part III](q1/classRelationships.md)
