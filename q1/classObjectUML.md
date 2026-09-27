@@ -46,8 +46,8 @@ The “MusicTaste” class encapsulates an individual's musical interests, track
 | PinInterests() | Prints a summary of the user's music interests and favorite artist. |
 
 ## Class Diagram
-![Class Diagram]([images/classDiagram.png)](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/classDiagram.jpg?raw=true))
-# Hi, Sir! I already uploaded this po on gclassroom last time, I have just updated it po. Thank you!
+![Class Diagram](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/classDiagram.jpg?raw=true)
+""" Hi, Sir! I already uploaded this po on gclassroom last time, I have just updated it po. Thank you!"""
 ## Design Explanation
 ### Why did you choose this class? 
 I chose MusicTaste because music is a big part of my daily life, and I was genuinely curious about how my favorite songs and listening habits could be turned into code. It felt like a fun way to connect something I enjoy with object-oriented programming.
