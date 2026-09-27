@@ -26,7 +26,7 @@ To improve data integrity and follow object-oriented programming principles, the
 ![Test Run](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/classTestRun.jpg?raw=true))
 
 ## Object Diagram
-![Object Diagram](images/objectDiagram.png)
+![Object Diagram](https://github.com/kctsandejo/9magnesiumcs3/blob/99e9f6fa1eeb0b95eef6c6c71f544a9469250a53/PictureFolder/objectDiagram.jpg)
 
 ## Analysis
 
