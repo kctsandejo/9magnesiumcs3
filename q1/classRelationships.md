@@ -16,7 +16,7 @@ Explanation: MusicTaste is managed by PlayList in order for varying genre of son
 Multiplicity: 1:*
 Explanation: 1 PlayList can store and manage many MusicTaste instances, whereas each MusicTaste can exist on its own or be assigned to a playlist.
 ## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+![Class Relationship Diagram](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/classRelationshipDiagram.jpg?raw=true)
 ## Python Implementation
 [View Python Source](classRelationships.py)
 ## Test Run
