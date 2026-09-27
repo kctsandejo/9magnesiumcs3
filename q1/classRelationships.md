@@ -20,7 +20,7 @@ Explanation: 1 PlayList can store and manage many MusicTaste instances, whereas 
 ## Python Implementation
 [View Python Source](classRelationships.py)
 ## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
+![Relationship Test Run](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/relationshipTestRun.jpg?raw=true)
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
