@@ -17,13 +17,13 @@ To improve data integrity and follow object-oriented programming principles, the
 | `listeners` | int | Private | To enforce encapsulation, preventing unauthorized modifications and forcing updates to pass through validated methods. |
 
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png](https://github.com/kctsandejo/9magnesiumcs3/blob/main/q1/classDiagramSG5.png.jpg?raw=true)
+![Class Diagram](images/classDiagram.png )
 
 ## Python Implementation
 [View Python Source](classImplementation.py)
 
 ## Test Run
-![Test Run]([images/classTestRun.png](https://github.com/kctsandejo/9magnesiumcs3/blob/2aaf55ece1c145a40172c9bb2b5b89cdf029e7d2/q1/classTestRun.png.jpg))
+![Test Run](images/classTestRun.png )
 
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
