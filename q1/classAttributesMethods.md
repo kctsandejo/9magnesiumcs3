@@ -23,7 +23,7 @@ To improve data integrity and follow object-oriented programming principles, the
 [View Python Source](classImplementation.py)
 
 ## Test Run
-![Test Run](images/classTestRun.png)
+![Test Run]([images/classTestRun.png](https://github.com/kctsandejo/9magnesiumcs3/blob/2aaf55ece1c145a40172c9bb2b5b89cdf029e7d2/q1/classTestRun.png.jpg))
 
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
