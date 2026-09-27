@@ -42,4 +42,4 @@ if __name__ == "__main__":
     print("Object 1:", music1.pin_interests())
     print("Object 2:", music2.pin_interests())
 
- just the general blueprint showing attribute names, data types, and methods. Meanwhile, the object diagram shows the actual state of instances during runtime. Instead of listing data types, the object diagram shows the exact values stored inside music1 and music2 at that moment.
+ 
