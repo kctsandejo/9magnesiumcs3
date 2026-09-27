@@ -1,8 +1,7 @@
 class MusicTaste:
-    """
-    Encapsulates an individual's musical interests, tracking details 
+   # Encapsulates an individual's musical interests, tracking details 
     about their favorite song, artist, music library, and artist popularity.
-    """
+  
     def __init__(self, listener_name: str, favorite_song: str, favorite_artist: str, artist_popularity: int):
         self.listener_name = listener_name
         self.favorite_song = favorite_song
