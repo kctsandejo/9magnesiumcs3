@@ -31,6 +31,7 @@ class PlayList:
             print(f"Added {music_taste.listener_name}'s preferences to playlist '{self.name}'.")
         else:
             raise TypeError("Only MusicTaste object instances can be added.")
+#checks for errors, only musictaste
 
     def remove_music_taste(self, listener_name: str):
         for track in self._tracks:
