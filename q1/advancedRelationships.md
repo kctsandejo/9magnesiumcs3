@@ -13,7 +13,7 @@ Explanation: PremiumMusicTaste is simply an exclusive version of a standard Musi
 Relationship: Composition (Strong HAS-A)
 Explanation: It provides a strong ownership bond where the PlaylistInfo cannot exist without the PlayList, which follows the composition relationship.
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/advancedClassDiagram.jpg?raw=true)
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
