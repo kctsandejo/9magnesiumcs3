@@ -22,7 +22,7 @@ Explanation: 1 PlayList can store and manage many MusicTaste instances, whereas 
 ## Test Run
 ![Relationship Test Run](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/relationshipTestRun.jpg?raw=true)
 ## Object Relationship Diagram
-![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+![Object Relationship Diagram] (https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/objectRelationshipDiagram.jpg?raw=true)
 ## Analysis
 ### What is the association between your two classes?
 The association is that PlayList contains and manages MusicTaste items. The PlayList groups individual music tastes, favorite songs, or artist profiles together to organize music by. In this setup, PlayList holds references to one or more MusicTaste objects so it can track and control playback order effectively.
