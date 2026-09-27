@@ -19,7 +19,7 @@ Explanation: It provides a strong ownership bond where the PlaylistInfo cannot e
 ## Test Run
 ![Test](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/advancedTestRun.jpg?raw=true)
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](https://github.com/kctsandejo/9magnesiumcs3/blob/main/PictureFolder/advancedObjectDiagram.jpg?raw=true)
 ## Reflection
 
 ###1. Why did you choose your inheritance relationship? Explain why your child class is a type of your
