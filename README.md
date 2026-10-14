@@ -30,5 +30,5 @@ Magnesium
 [View my OOP Seed System-Part IV](q1/advancedRelationships.md)
 
 # Quarter 1
-[View my OOP Seed System-Part IV](q1/advancedRelationships.md)
+[View my Study Guide 8 – Encapsulation](sg8_encapsulation.py)
 
