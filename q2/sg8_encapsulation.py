@@ -33,14 +33,14 @@ class BankAccount:
         print(f"Account Number: (self._account_number)")
         print (f"Balance : (self._balance: 2f)\n")
 
-  if __name__== "_main_":
+if __name__== "_main_":
     # function call to display only the info, tells when the main function should be excecuted
-    a1 = BankAccount(122311, 1000)
-    print("Output: ")
-    a1.display_info ("Account 1: ")
-    print ("Update balance to -100")
-    a1.set_balance(-100)
-    a1.display_info()
+  a1 = BankAccount(122311, 1000)
+  print("Output: ")
+  a1.display_info ("Account 1: ")
+  print ("Update balance to -100")
+  a1.set_balance(-100)
+  a1.display_info()
     
 
     
