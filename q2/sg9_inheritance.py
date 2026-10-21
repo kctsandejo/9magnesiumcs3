@@ -46,6 +46,15 @@ class Book
       
 class Magazine
 #wooh Mgsin
-
+  def __init__(self, title, author, issue_number: int):
+      # initializes and declares primary variables
+      #  is number_of_pages: int, issue_number: int) included
+      self.title = title
+      self.author = author
+      self.issue_number = number
+    
+  def get_issue_number():
+      
+  def set_issue_number(issue_number):
 
 
