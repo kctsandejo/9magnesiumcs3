@@ -1,6 +1,7 @@
 class Publication
-  def __init__(self, title, author):
-    # number_of_pages: int, issue_number: int):
+  def __init__(self, title, author, number_of_pages: int, issue_number: int):
+    # initializes and declares primary variables
+    #  is number_of_pages: int, issue_number: int) included
     self.title = title
     self.author = author
 
@@ -17,3 +18,18 @@ class Publication
     else:
       self._number_of_pages = pages
       # ano to hhshs
+
+  def display_info(self, label: str = ""):
+    #displays info only for public information
+      
+      if label:
+        print ("Publication Information: ")
+        print(f"Title: {self.title}")
+        print (f"Author : {self.author}")
+
+
+#class Book
+#Class Magazine
+#wooh Mgsin
+
+
