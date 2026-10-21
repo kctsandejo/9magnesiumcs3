@@ -1,7 +1,7 @@
 class Publication
-  def __init__(self, title, author, number_of_pages: int, issue_number: int):
+  def __init__(self, title, author):
     # initializes and declares primary variables
-    #  is number_of_pages: int, issue_number: int) included
+
     self.title = title
     self.author = author
 
@@ -10,15 +10,7 @@ class Publication
 
   def set_author(author):
     self.author= author
- 
-  def set_number_of_pages (self, balance: float):
-    if pages < 0: 
-      print ("The number of pages must be positive.”)
-    #error message 
-    else:
-      self._number_of_pages = pages
-      # ano to hhshs
-
+    
   def display_info(self, label: str = ""):
     #displays info only for public information
       
@@ -28,8 +20,32 @@ class Publication
         print (f"Author : {self.author}")
 
 
-#class Book
-#Class Magazine
+class Book
+  def __init__(self, title, author, number_of_pages: int):
+      # initializes and declares primary variables
+      #  is number_of_pages: int, issue_number: int) included
+      self.title = title
+      self.author = author
+      self.number_of_pages = pages
+    
+  def set_number_of_pages (self, pages: int):
+    if pages < 0: 
+      print ("The number of pages must be positive.”)
+    #error message 
+    else:
+      self._number_of_pages = pages
+      #proceeds to code
+  
+  def display_info(self, label: str = ""):
+    #displays info only for public information
+      
+      if label:
+        print ("Book Information: ")
+        print(f"Title: {self.title}")
+        print (f"Author : {self.author}")
+      
+class Magazine
 #wooh Mgsin
+
 
 
