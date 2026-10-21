@@ -37,7 +37,7 @@ class Book
       #proceeds to code
   
   def display_info(self, label: str = ""):
-    #displays info only for public information
+    #displays info only for book information
       
       if label:
         print ("Book Information: ")
@@ -54,7 +54,20 @@ class Magazine
       self.issue_number = number
     
   def get_issue_number():
+     self.issue_number = issue_number
       
   def set_issue_number(issue_number):
+
+    
+  def set_number_of_pages (self, pages: int):
+    if pages < 0: 
+      print ("The number of pages must be positive.”)
+    #error message 
+    else:
+      self._number_of_pages = pages
+      #proceeds to code
+  
+  def display_info(self, label: str = ""):
+    #displays info only for magazine information
 
 
