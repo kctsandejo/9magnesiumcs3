@@ -19,7 +19,7 @@ class Publication
   def display_info(self, label: str = ""):
     #displays info only for public information
       print(f"Title: {self.title}")
-      print (f"Author : {self.author}")
+      print(f"Author : {self.author}")
 
 
 class Book
@@ -33,7 +33,7 @@ class Book
 
   def set_number_of_pages (self, pages: int):
       if pages < 0: 
-         print ("The number of pages must be positive.”)
+         print("The number of pages must be positive.”)
       #error message 
       else:
          self._number_of_pages = pages
@@ -56,7 +56,7 @@ class Magazine
       
   def set_issue_number(self, issue_number:int):
       if issue_number < 0: 
-          print ("The issue number must be positive.”)
+          print("The issue number must be positive.”)
           #error message 
       else:
           self.issue_number = issue_number
@@ -77,7 +77,7 @@ if__name__ == "__main__":
    print("\nBook Information: ")
    book1.set_number_of_pages(-310)
    book1.display_info()
-   print(f"Number of pages: {book1.get_number_of_pages()}
+   print(f"Number of pages: {book1.get_number_of_pages()"}
  
    print("\nMagazine Information: ")
    mag1.display_info()
