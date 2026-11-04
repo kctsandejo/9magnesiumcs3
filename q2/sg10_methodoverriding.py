@@ -12,8 +12,19 @@ class Lion (Animal):
   def eat(self):
     print(f"{self.name} roars loudly!")
     print(f"{self.name} eats fresh meat.")
+    print("-----")
 
 class Monkey (Animal):
-  
+   def eat(self):
+    print(f"{self.name} trumpets!")
+    print(f"{self.name} eats grass and fruits.")
+    print("-----")
+
+class Monkey (Animal):
+   def eat(self):
+    print(f"{self.name} trumpets!")
+    print(f"{self.name} eats grass and fruits.")
+    print("-----")
+
 
 
