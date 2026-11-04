@@ -10,5 +10,10 @@ class Animal:
 
 class Lion (Animal):
   def eat(self):
-    print(f"{self.name} is eating.")
- 
+    print(f"{self.name} roars loudly!")
+    print(f"{self.name} eats fresh meat.")
+
+class Monkey (Animal):
+  
+
+
