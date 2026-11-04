@@ -1,1 +1,10 @@
-class Animal
+class Animal:
+  def __init__(self, name):
+    self.name = name
+  def eat(self):
+    print(self.name,"is eating.")
+  def sleep(self):
+    print(self.name, "is sleeping.")
+  def make_sound(self):
+    print(self.name, "makes a sound")
+ 
