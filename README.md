@@ -39,5 +39,6 @@ Magnesium
 
 [View my Study Guide 10 –  Method Overriding ](q2/sg10_methodoverriding.py)
 
-[View my Study Guide 11 –  Polymorphism ](q2/sg11_polymorphism.py)
+[View my Activity 1 in Study Guide 11 –  Polymorphism ](q2/sg11_polymorphism.py)
 
+[View my Activity 2 in Study Guide 11 –  Polymorphism ](q2/sg11_polymorphism.py)
