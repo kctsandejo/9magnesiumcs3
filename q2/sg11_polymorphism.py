@@ -48,22 +48,25 @@ print ("-----------------------")
 patient 1 = Patient("Juan Dela Cruz, 15000")
 print("\nPatient Name: ", patient1.get_name())
 patient1.display_patient_type()
-print(f"Original Bill: ₱{patient1.get_bill_amount():.2f}")
-print(f"Final Bill: ₱{patient1.calculate_bill():.2f}")
+print(f"Original Bill: ₱{patient1.get_bill_amount():,.2f}")
+print(f"Final Bill: ₱{patient1.calculate_bill():,.2f}")
 
 # creates the object for patient 2
 patient 2 = Senior("Maria Santos, 15000")
 print("\nPatient Name: ", patient2.get_name())
 patient2.display_patient_type()
-print(f"Original Bill: ₱{patient2.get_bill_amount():.2f}")
-print(f"Final Bill: ₱{patient2.calculate_bill():.2f}")
+print(f"Original Bill: ₱{patient2.get_bill_amount():,.2f}")
+print(f"Final Bill: ₱{patient2.calculate_bill():.,2f}")
 
 # creates the object for patient 3
 patient 3 = PhilHealthPatient("Pedro Reyes", 15000)
 print("\nPatient Name: ", patient3.get_name())
 patient3.display_patient_type()
-print(f"Original Bill: ₱{patient3.get_bill_amount():.2f}")
-print(f"Final Bill: ₱{patient3.calculate_bill():.2f}")
+print(f"Original Bill: ₱{patient3.get_bill_amount():,.2f}")
+print(f"Final Bill: ₱{patient3.calculate_bill():,.2f}")
+
+#.2f for two decimal places only
+#,.2f two decimal places and a comma for the thousands place
 
 
 
