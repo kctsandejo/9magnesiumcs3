@@ -1,3 +1,4 @@
+#Activity 1
 class Patient: 
  ## initializes the patient's name and their bill amount
     def__init__(self, name, bill_amount): 
