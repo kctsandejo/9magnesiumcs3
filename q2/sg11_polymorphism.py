@@ -10,6 +10,8 @@ class Patient:
     def set_name(self,name):
        self.name = name
 
-    def get_bill
+    def get_bill_amount(self,bill_amount):
+       return self.bill_amount
+   
 
     
