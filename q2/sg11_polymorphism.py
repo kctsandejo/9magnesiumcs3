@@ -33,7 +33,20 @@ class PhilHealthPatient(Patient):
 print("Hospital Billing System")
 print ("-----------------------")
 
+# creates the object for patient 1
 patient 1 = Patient("Juan Dela Cruz, 15000")
+print("\nPatient Name: ", patient1.get_name())
+patient1.display_patient_type()
+print(f"Original Bill: ₱{patient1.get_bill_amount():.2f}")
+print(f"Final Bill: ₱{patient1.calculate_bill():.2f}")
+
+# creates the object for patient 1
+patient 1 = Patient("Juan Dela Cruz, 15000")
+print("\nPatient Name: ", patient1.get_name())
+patient1.display_patient_type()
+print(f"Original Bill: ₱{patient1.get_bill_amount():.2f}")
+print(f"Final Bill: ₱{patient1.calculate_bill():.2f}")
+
 
 
     
